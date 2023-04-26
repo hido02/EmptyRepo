@@ -5,7 +5,7 @@ import {
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-// import SettingsIcon from '@mui/icons-material/Settings';
+import SettingsIcon from '@mui/icons-material/Settings';
 import { useState } from 'react';
 
 function App() {
@@ -35,7 +35,8 @@ function App() {
           }}
         >
           <BottomNavigationAction label="홈" icon={<RestoreIcon />} onClick={() => navigate('')} />
-          <BottomNavigationAction label="마이페이지" icon={<FavoriteIcon />} onClick={() => navigate('/my-page')} />
+          <BottomNavigationAction label="상세페이지" icon={<FavoriteIcon />} onClick={() => navigate('/about')} />
+          <BottomNavigationAction label="마이페이지" icon={<SettingsIcon />} onClick={() => navigate('/my-page')} />
         </BottomNavigation>
       </Paper>
     </Box>
