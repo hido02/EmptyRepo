@@ -1,7 +1,7 @@
 function MyPage() {
   return (
     <>
-      홈
+      마이 페이지
     </>
   );
 }
