@@ -5,7 +5,7 @@ export const counterState = atom({
   default: 0,
 });
 
-export const todoListState = atom({
+export const todoListState = atom<number[]>({
   key: 'todoListState',
   default: [],
 });
