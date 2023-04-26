@@ -8,7 +8,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { useState } from 'react';
 
-function App() {
+function HomeLayout() {
   const [tabMenu, setTabMenu] = useState(0);
   const navigate = useNavigate();
   return (
@@ -43,4 +43,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomeLayout;
